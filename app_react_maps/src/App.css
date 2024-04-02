@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600&display=swap');
+
+/*Ce code CSS définit un certain nombre de règles de style pour une application web.
+} */
+.App{
+  margin: 1.5%;
+}
+.App-header {
+  background-color: var(--main-blue);
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+
+}
+body {
+  font-family: 'Nunito Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div.myMaps > * {
+  margin: 3%;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.contact-section {
+  /* background-color: var(--white); */
+  background-color: goldenrod;
+  width: 80%;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 20% 0% 10%;
+  height: 150%;
+  position: absolute;
+  border-radius: 2%;
+  top: 80%;
+  z-index: 2;
+}
+
+/* Cet ensemble de règles CSS définit des variables personnalisées, appelées "variables CSS" ou "variables de customisation".
+Dans ce cas, trois variables sont définies avec des couleurs spécifiques : --main-blue, --main-green et --white. Ces variables peuvent être utilisées dans tout le reste du code CSS pour maintenir la cohérence des couleurs. */
+:root {
+  --main-blue: #00253a;
+  --main-green: #2e933c;
+  --white: #ffffff;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.myMaps {
+  background-color:#00253a;
+ justify-content: center;
+  width: 90%;
+  height: 110%;
+  margin: 500px 20% 5% 2%;
+  padding: 1% 5% 1% 1%;
+  color: gold;
+  text-align: center;
+  font-size: x-large;
+  border-radius: 2%;
+}
+.container {
+  position: relative;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
